@@ -1,0 +1,35 @@
+*{
+    margin-top: 10px;
+}
+
+section{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+section>span{
+    border-bottom: 1px solid purple;
+}
+.button-box>button{
+    background-color: #333;
+    outline: none;
+    border: none;
+    border-radius:2px ;
+}
+.button-box>button:active{
+    transform: scale(1.2);
+    color: blueviolet;
+}
+.button-box>button.active{
+    transform: scale(1.2);
+    color: blueviolet;
+}
+.container{
+    background-color:  rgb(27, 30, 38);
+
+
+}
+canvas{
+    color: white;
+    overflow: scroll;
+}

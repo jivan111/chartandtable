@@ -1,0 +1,68 @@
+        *{
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+      
+        
+        .table-container{
+            position: relative;
+            
+            margin: auto;
+            background-color:  rgb(27, 30, 38);
+            height: 60vh;
+            overflow-y: auto;
+            display: inline-block;
+            
+        }
+        .table-container>table>tbody>tr>td>a{
+            text-decoration: none;
+
+            color:green ;
+        }
+       
+        .table-container>table>thead{
+            color:purple ;
+            font-size: 20px;
+            padding: 100px;
+            cursor: pointer;
+        }
+       
+        .table-container>table>tbody td,
+        .table-container>table>thead th{
+            border: 1px solid rgba(255,255,255,.3);
+            padding: 5px;
+        }
+        .table-container>table>thead th span{
+            padding: 5px;
+            color: greenyellow;
+        }
+        table{
+            color: white;
+           
+           
+            border-collapse: collapse;
+        }
+        .search{
+            float: right;
+            background-color:   rgb(27, 30, 38);
+        }
+        .search>input{
+            background-color:   #333;
+            outline: none;
+            border: none;
+            color: white;
+            height: 40px;
+            width: 200px;
+            position: relative;
+            margin-bottom: 10px;
+            border-radius:5px ;
+            padding-left: 10px;
+        }
+        .search>input::placeholder{
+          color: white;
+          
+          padding-left: 10px;
+        }
+      
+
+       
